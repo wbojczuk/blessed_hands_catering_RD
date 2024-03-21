@@ -1,0 +1,35 @@
+.deserves{
+    position: relative;
+    padding: var(--section-padding-top) 0;
+    background-color: var(--purple-bg);
+}
+
+.deserves h2{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
+    color: var(--primary-heading);
+}
+
+.deserves p{
+    text-align: center;
+    padding: 0 30%;
+    font-size: 1.4rem;
+    margin: 2vw 0;
+}
+
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+
+}
+
+ /* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+
+}

@@ -1,7 +1,11 @@
 .main-link{
   font-family: var(--primary-font);
   font-weight: 700;
-  background-color: var(--primary-color-2);
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5vw;
+  background-color: var(--primary-color);
   font-size: 1.5rem;
   padding: 0.6vw 3.5vw;
   color: var(--primary-text-color);
@@ -9,8 +13,14 @@
   overflow: hidden;
   position: relative;
   cursor: pointer;
-  display: inline-block;
+  border-radius: 999px;
   border: none;
+}
+
+.main-link svg{
+  width: 2rem;
+  height: 2rem;
+  transition: transform 0.3s;
 }
 
 .main-link::after{
@@ -29,6 +39,9 @@
 
 .main-link:hover::after{
   transform: translateX(0);
+}
+.main-link:hover svg{
+  transform: translateX(3px);
 }
 
 /* TABLET STYLES */

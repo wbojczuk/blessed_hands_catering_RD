@@ -5,8 +5,9 @@
     width: 100%;
     background-color: var(--secondary-color);
     z-index: 998;
-    /* box-shadow: 0px 2px 4px rgba(0,0,0,0.3); */
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
     transition: 0.5s transform;
+
     
 }
 
@@ -55,8 +56,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 80%;
-    padding: 1.3vw 10%;
+    width: 85%;
+    padding: 1.3vw 7.5%;
 }
 
 .logo{
@@ -90,6 +91,7 @@
     color: var(--primary-text-color);
     text-decoration: none;
     margin: 0 0.7vw;
+    font-family: var(--secondary-font);
 }
 .noIcon+span{
     padding-left: 0 !important;
@@ -112,8 +114,8 @@
 .links span{
     font-weight: 500;
     padding-left: 0.2vw;
-    font-size: 1rem;
-    color: var(--secondary-text-color);
+    font-size: 1.1rem;
+    color: var(--primary-text-color);
     transition: 0.3s color;
 }
 
@@ -143,11 +145,11 @@
     border-radius: 999px;
     left: 0;
     bottom: 1vw;
-    background-color: var(--primary-color);
+    background-color: var(--primary-color-2);
 }
 
 .navLink:hover li span{
-    color: var(--primary-color);
+    color: var(--primary-color-2);
 }
 
 .dropdownLink{
@@ -195,10 +197,12 @@
 
 .links a.cta{
     background-color: var(--primary-color);
-    padding: 0.6vw 1vw;
+    padding: 0.6vw 2.5vw;
     border-radius: 999px;
+    
     transition: filter 0.3s;
     color: black;
+    margin-left: 2vw !important;
 }
 
 .cta:hover{
@@ -211,6 +215,8 @@
 
 .cta span{
     font-weight: 600;
+    font-size: 1.1rem;
+    font-family: var(--primary-font);
 }
 
 /* MEDIUM LAPTOP STYLES */
@@ -324,6 +330,7 @@
     .links span{
         padding-left: 0.2vw;
         font-size: 1.3rem;
+        color: var(--secondary-text-color);
     }
     
     .navLink li, .dropdownLink, .cta{
@@ -416,11 +423,14 @@
     
     .links a.cta{
         background-color: var(--primary-color);
-        padding: 1vw 2vw;
+        padding: 1vw 3vw;
         border-radius: 999px;
         transition: filter 0.3s;
         display: inline-flex;
         margin: 1.5vw 0;
+    }
+    .links a.cta span{
+        color: var(--primary-text-color);
     }
     .links a.cta .noIcon{
         height: 3vw;;
@@ -521,7 +531,7 @@
     }
 
     .links a.cta{
-        padding: 2vw 4vw;
+        padding: 2vw 6vw;
         border-radius: 999px;
         transition: filter 0.3s;
         display: inline-flex;
