@@ -163,6 +163,8 @@ export default function Navbar() {
   return (
     <nav ref={navRef} className={styles.mainNav}>
 
+      <div className={styles.topBar}></div>
+
       <div className={styles.navContent}>
       <Link href="/" className={styles.logo}>
         <img src="/img/logo.png" className={styles.logoImg} width={500} height={250} alt="Logo" />
