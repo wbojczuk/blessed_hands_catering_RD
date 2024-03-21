@@ -27,9 +27,25 @@
 /* TABLET STYLES */
 @media only screen and (min-width: 650px) and (max-width: 990px){
 
+    .deserves h2{
+        font-size: 4rem;
+    }
+    
+    .deserves p{
+        padding: 0 20%;
+        font-size: 1.4rem;
+        line-height: 150%;
+        margin: 4vw 0;
+    }
 }
 
  /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
-
+    
+    .deserves p{
+        padding: 0 10%;
+        font-size: 1.6rem;
+        line-height: 150%;
+        margin: 8vw 0;
+    }
 }

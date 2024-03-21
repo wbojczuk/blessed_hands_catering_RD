@@ -106,11 +106,14 @@
         width: 60vw;
     }
     .content h2{
-        font-size: 3rem;
+        font-size: 4rem;
+    }
+    .content h4{
+        font-size: 1.8rem;
     }
     .content p{
-        padding: 3vw 0;
-        font-size: 1.4rem;
+        padding: 3vw 10% 3vw 0;
+        font-size: 1.6rem;
         line-height: 210%;
     }
 }
@@ -127,7 +130,13 @@
     .content{
         width: 80vw;
     }
+    .content h2{
+        font-size: 4rem;
+    }
+    .content h4{
+        font-size: 1.8rem;
+    }
     .content p{
-        padding: 4vw 0;
+        padding: 5vw 10% 5vw 0;
     }
 }

@@ -428,6 +428,7 @@
         transition: filter 0.3s;
         display: inline-flex;
         margin: 1.5vw 0;
+        margin-left: 0 !important;
     }
     .links a.cta span{
         color: var(--primary-text-color);

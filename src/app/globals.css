@@ -148,12 +148,18 @@ body::-webkit-scrollbar-track {
   .tablet{
     display: initial !important;
   }
+  .underline::after{
+    height: 3vw;
+  }
 }
 
 /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
   body{
     padding-top: 15vw;
+  }
+  .underline::after{
+    height: 6vw;
   }
   :root{
     font-size: 10px;

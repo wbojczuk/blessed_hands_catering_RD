@@ -30,10 +30,40 @@
 
 /* TABLET STYLES */
 @media only screen and (min-width: 650px) and (max-width: 990px){
-
+    .header{
+        padding: calc(var(--section-padding-top) * 2) 0;
+    }
+    
+    .header h1{
+        font-size: 6rem;
+    }
+    
+    .header p{
+        font-size: 1.4rem;
+        padding: 8vw 20% 4vw 20%;
+    }
+    
+    .linkWrapper{
+        margin: 3vw 0;
+    }
 }
 
  /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
-
+    .header{
+        padding: calc(var(--section-padding-top) * 3) 0;
+    }
+    
+    .header h1{
+        font-size: 4rem;
+    }
+    
+    .header p{
+        font-size: 1.6rem;
+        padding: 10vw 10% 6vw 10%;
+    }
+    
+    .linkWrapper{
+        margin: 5vw 0;
+    }
 }
