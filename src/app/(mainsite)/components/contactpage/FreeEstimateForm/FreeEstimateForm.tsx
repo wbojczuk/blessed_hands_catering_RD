@@ -36,7 +36,8 @@ export default function FreeEstimateForm() {
                 <input required type="text" name="Event_Type" id="eventInput" placeholder={"Event Type"} />
             </div>
             <div className="input-wrapper">
-                <input className="half-input" type="text" name="Date" id="dateInput" placeholder={"Date (Optional)"} />
+                <input className="half-input" type="text" name="Dates" id="dateInput" placeholder={"Dates (Optional)"} />
+
                 <input className="half-input" type="text" name="Guest_Amt" id="amtInput" placeholder={"Approx Guests (Optional)"} />
             </div>
 
