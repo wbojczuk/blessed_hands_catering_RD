@@ -1,0 +1,29 @@
+.pageTitle{
+    padding: calc(var(--section-padding-top)) 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--secondary-text-color);
+}
+
+.pageTitle h1{
+    font-size: 5rem;
+    padding: 0 25%;
+    text-align: center;
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    .pageTitle h1{
+        padding: 0 15%;
+    }
+}
+ 
+/* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .pageTitle h1{
+        padding: 0 5%;
+    }
+}

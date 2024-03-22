@@ -20,7 +20,7 @@ return (
         
 
     <div className={styles.imgWrapper}>
-        <img src="/img/food-on-table.png" alt="image of food on table" />
+        <img src="/img/food-on-table.webp" alt="image of food on table" />
     </div>
 
     <div className={styles.item}>
